@@ -1,0 +1,35 @@
+footer {
+  margin-top: 1em; }
+  footer .footer-content {
+    justify-content: center;
+    text-align: center; }
+    footer .footer-content .social .fa {
+      padding-top: .33em;
+      font-size: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #212529;
+      border-radius: 50%; }
+    footer .footer-content .social .fa:hover {
+      opacity: 0.7; }
+    footer .footer-content .copyright {
+      margin: 0;
+      padding: 0;
+      height: 50px; }
+    footer .footer-content .termofuse a {
+      color: #fed136;
+      padding: 0 .5em; }
+
+@media screen and (max-width: 991px) {
+  .copyright p {
+    padding: 1em; }
+
+  .termofuse {
+    padding: 0; }
+    .termofuse a {
+      color: #fed136; } }
+
+/*# sourceMappingURL=footer.css.map */

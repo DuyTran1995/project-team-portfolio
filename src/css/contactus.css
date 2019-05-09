@@ -1,0 +1,33 @@
+.contactus {
+  background-color: #212529;
+  padding-bottom: 5em; }
+  .contactus h1, .contactus p {
+    text-align: center;
+    color: #ffffff; }
+  .contactus h1 {
+    padding-top: 5em; }
+  .contactus .input-text {
+    flex-basis: 50%; }
+  .contactus input {
+    width: 95%;
+    height: 30%;
+    margin: .4em;
+    border-radius: 10px; }
+  .contactus textarea {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px; }
+
+.sendmessage {
+  background-color: #fed136;
+  border: 1px solid #fed136;
+  border-radius: 10px;
+  margin-left: 43%;
+  margin-top: 1em; }
+  .sendmessage a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1em;
+    display: block; }
+
+/*# sourceMappingURL=contactus.css.map */

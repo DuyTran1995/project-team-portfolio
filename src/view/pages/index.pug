@@ -1,0 +1,200 @@
+//- Menu-Logo-Banner
+extends ../layouts/layout.pug 
+
+//- Services
+block title
+    title   Services
+
+block services
+    div(class='services container')
+        h1 services
+        p Lorem ipsum dolor sit amet consectetur.
+        div(class='content-services row')
+            div(class='commerce col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4')
+                div(class='shopping-cart')
+                    <i class="fas fa-shopping-cart"></i>
+                h2 E-Commerce
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+            div(class='reponsive-design col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4')
+                div(class='computer')
+                    <i class="fas fa-laptop"></i>
+                h2 Responsive Design
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+            div(class='web-security col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4')
+                div(class='security')
+                    <i class="fas fa-lock"></i>
+                h2 Web Security
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+//- PortFolio
+block title
+    title Portfolio
+//- .col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
+block portfolio
+    .portfolio-container
+        h1  PORTFOLIO
+        p   Lorem ipsum dolor sit amet consectetur.
+        .portfolio-content.container
+            .portfolio-items.row
+                .card
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/01-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Threads
+                    p   Illustration
+                .card
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/02-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Explore
+                    p   Graphic Design
+                .card.offset-sm-6
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/03-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Finish
+                    p   Identity
+            .portfolio-items.row
+                .card
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/04-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Lines
+                    p   Branding
+                .card
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/05-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Southwest
+                    p   Website Design
+                .card.offset-sm-6
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/portfolio/06-thumbnail.jpg", alt="#")
+                    span
+                    span
+                    h3  Window
+                    p   Photography
+//- .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
+block title
+    Title About
+block about
+    .about-container
+        h1  ABOUT
+        p   Lorem ipsum dolor sit amet consectetur.
+        .about-content.container
+            .tree-about.row
+                .img-tree
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/1.jpg", alt="")
+                    h3.left 2009-2011 Our Humble Beginnings 
+                    p.left Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                .img-tree
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/2.jpg", alt="")
+                    h3.right March 2011 An Agency is Born
+                    p.right Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                .img-tree
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/3.jpg", alt="")
+                    h3.left December 2012 Transition to Full Service 
+                    p.left Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                .img-tree
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/4.jpg", alt="")
+                    h3.right July 2014 Phase Two Expansion
+                    p.right Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                .img-tree
+                    .circle-tree
+                    h3.center Be Part Of Our Story!
+
+block title
+    Title Team
+block team
+    .team-container
+        h1  OUR AMAZING TEAM
+        p   Lorem ipsum dolor sit amet consectetur.
+        .team-content.container
+            .team-member.row
+                .team-card.col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
+                    .img-card
+                        img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg", alt="")
+                    .name
+                        h2 Kay Garland
+                    .position
+                        p Lead Designer
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                .team-card.col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
+                    .img-card
+                        img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg", alt="")
+                    .name
+                        h2 Larry Parker
+                    .position
+                        p Lead Marketer
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                .team-card.col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
+                    .img-card
+                        img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg", alt="")
+                    .name
+                        h2 Diana Pertersen
+                    .position
+                        p Lead Developer
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                p.content-bottom Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
+block title
+    Title client
+block client
+    .client.container
+        .client-content.row
+            .client.col-6.col-sm-6.col-md-6.col-sm-3.col-lg-3.col-xl-3
+                a(href="#")
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/logos/envato.jpg", alt="") 
+            .client.col-6.col-sm-6.col-md-6.col-sm-3.col-lg-3.col-xl-3
+                a(href="#")
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/logos/designmodo.jpg", alt="") 
+            .client.col-6.col-sm-6.col-md-6.col-sm-3.col-lg-3.col-xl-3
+                a(href="#")
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/logos/themeforest.jpg", alt="") 
+            .client.col-6.col-sm-6.col-md-6.col-sm-3.col-lg-3.col-xl-3
+                a(href="#")
+                    img(src="https://blackrockdigital.github.io/startbootstrap-agency/img/logos/creative-market.jpg", alt="")
+
+block title
+    Title contactus
+block contactus
+    .contactus
+        h1  CONTACT US
+        p   Lorem ipsum dolor sit amet consectetur.
+        .contactus-content.container
+            .from-control.row
+                .input-text.col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6
+                    input(type="text" value="Your Name *")
+                    input(type="text" value="Your Email *")
+                    input(type="text" value="Your Phone *")
+                .textarea.col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6
+                    textarea(value="Your Phone *", cols="30", rows="20")
+                .sendmessage    
+                    a(href="#") SEND MESSAGE
+
+
+block title
+    Title Footer
+block footer
+    footer.container
+        .footer-content.row
+            .copyright.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-4
+                p   Copyright © Your Website 2019
+            .social.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-4
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            .termofuse.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-4
+                a(href="#") Privacy Policy
+                a(href="#") Terms of Use
+
+
+
+
+
+    
